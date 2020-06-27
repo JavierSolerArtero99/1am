@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "digital";
+    src: url("./../../../fonts/DS-DIGI.TTF");
+}
+
+* {
+    margin: 0
+}
+
+.TextContainer {
+    background-color: rgba(54, 51, 51, 0.603);
+    position: relative;
+    bottom: 100px;
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Title {
+    font-family: "digital";
+    font-size: 80px;
+}
+
+.Paragraph {
+    font-family: "digital";
+    font-weight: bold;
+    font-size: 1005;
+}

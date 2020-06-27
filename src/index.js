@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import MainPage from './screens/MainPage'
+import App from './containers/App';
 import * as serviceWorker from './serviceWorker';
+import AppContainer from './containers/AppContainer';
 
 ReactDOM.render(
-  <MainPage />,
+  <App />,
   document.getElementById('root')
 );
 
