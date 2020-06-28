@@ -42,7 +42,9 @@ class AppContainer extends React.Component {
                     />
                     :
                     // cambiador de pantalla
-                    <MainSection />
+                    <div className="MainContainer">
+                        <MainSection />
+                    </div>
                 }
             </div>
         )

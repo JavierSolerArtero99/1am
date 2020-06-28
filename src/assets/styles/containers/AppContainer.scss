@@ -1,9 +1,4 @@
 .AppContainer {
-    position: absolute;
-    background-image: url('../../gifs/skate.gif');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 100%;
     width: 100%;
 }
@@ -11,4 +6,27 @@
 .LoadingGift {
     height: 100%;
     width: 100%;
+}
+
+.MainContainer {
+    position: absolute;
+    background-image: url('../../gifs/skate.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    animation: 2s;
+    animation-name: AppContainerStart;
+}
+
+/* animaciones */
+@keyframes AppContainerStart {
+    from {
+        margin-left: -200%;
+    }
+
+    to {
+        margin-left: 0px;
+    }
 }

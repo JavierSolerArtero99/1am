@@ -11,11 +11,6 @@ class MainSection extends React.Component {
                 <NavigationContainer>
                     <NavigationItem />
                     <NavigationItem />
-                    <NavigationItem />
-                    <NavigationItem />
-                    <NavigationItem />
-                    <NavigationItem />
-                    <NavigationItem />
                 </NavigationContainer>
             </div>
         );
