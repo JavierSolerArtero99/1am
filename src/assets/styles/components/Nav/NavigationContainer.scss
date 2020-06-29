@@ -1,7 +1,6 @@
 .carousel {
-    overflow: scroll;
-    padding-left: 60px;
-    width: 100%;
+    position: relative;
+    left: auto;
 }
 
 .carousel__container {
@@ -10,9 +9,7 @@
     transition: 450ms transform, 450ms -webkit-transform;
     font-size: 0;
     white-space: nowrap;
-    margin: 70px 0px;
-    padding-bottom: 10px;
-    transition: 5s;
+    transition: 10s;
     animation-name: CarrouselAnimation;
 }
 
@@ -21,19 +18,17 @@
 }
 
 .carousel__container:hover .carousel-item:hover {
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
     opacity: 1;
+    width: 40%;
 }
 
 /* animaciones */
 @keyframes CarrouselAnimation {
     from {
-        padding-left: -200%;
-        width: 200%;
+        margin-left: 500px;
     }
 
     to {
-        padding-left: 0px;
+        margin-left: 0px;
     }
 }

@@ -8,7 +8,7 @@
 }
 
 .TextContainer {
-    background-color: rgba(54, 51, 51, 0.473);
+    background-color: rgba(73, 69, 69, 0.63);
     position: relative;
     bottom: 100px;
     height: 50%;
@@ -20,6 +20,7 @@
     padding-right: 10px;
     animation-duration: 2s;
     animation-name: TextContainerAnimation;
+    color: white
 }
 
 .Title {
@@ -30,7 +31,7 @@
 .Paragraph {
     font-family: "digital";
     font-weight: bold;
-    font-size: 1005;
+    font-size: 15px;
 }
 
 /* animaciones */

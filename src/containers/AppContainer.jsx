@@ -22,7 +22,7 @@ class AppContainer extends React.Component {
             this.setState({
                 loading: false,
             })
-        }, 5500);
+        }, 3500);
     }
 
     getStateComponent() {

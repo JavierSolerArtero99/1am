@@ -9,8 +9,10 @@ class MainSection extends React.Component {
             <div>
                 <WhatIs1AM />
                 <NavigationContainer>
-                    <NavigationItem />
-                    <NavigationItem />
+                    <NavigationItem section="shop"/>
+                    <NavigationItem section="about"/>
+                    <NavigationItem section="contact"/>
+                    <NavigationItem section="gabi"/>
                 </NavigationContainer>
             </div>
         );
